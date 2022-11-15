@@ -6,6 +6,7 @@ import mbtokenLogo from '../assets/mbtoken-logo.png'
 import metamaskLogo from '../assets/metamask-logo.png'
 import openseaLogo from '../assets/opensea-logo.png'
 import imageGroupTop from '../assets/image-group-top.png'
+import imageGroupBottom from '../assets/image-group-2.png'
 
 const Home = () => {
 
@@ -23,7 +24,7 @@ const Home = () => {
                         <button className="search-btn" placeholder="search for location">Search</button>
                      </div>
                 </div>
-                <img src={imageGroupTop} alt="" className="image-group-1" />
+                <img src={imageGroupTop} alt="image-group-1" className="image-group-1" />
             </section>
             <div className="official-logos">
                 <img src={mbtokenLogo} alt="mbtoken-logo" className="mbtoken-logo" />
@@ -32,10 +33,22 @@ const Home = () => {
             </div>
             <section className="section-2">
                 <h2>Inspiration for your next adventure</h2>
-                <div className="card-container">
+                <div className="cards-container">
                     <Card />
                 </div>
             </section>
+            <section className="section-3">
+                <div className="section-3-content">
+                    <h3>Metabnb NFTs</h3>
+                    <p>Discover our NFT gift cards collection. Loyal
+                        customers gets amazing gift cards which are 
+                        traded as NFTs. These NFTs gives our customer 
+                        access to loads of our exclusive services.</p>
+                    <button className="learn-more">Learn more</button>
+                </div>
+                <img src={imageGroupBottom} alt="image-group-2" className="image-group-2" />
+            </section>
+
             <Footer />
         </div>
     )

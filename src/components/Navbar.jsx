@@ -11,7 +11,7 @@ const Navbar = () => {
                 <li className="nav-links"><a href="#">Home</a></li>
                 <li className="nav-links"><a href="#">Place to stay</a></li>
                 <li className="nav-links"><a href="#">NFTs</a></li>
-                <li className="nav-links"><a href="#">NFTs</a></li>
+                <li className="nav-links"><a href="#">Community</a></li>
             </ul>
             <button className="connect-wallet">
                 Connect wallet 

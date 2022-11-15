@@ -45,7 +45,6 @@
   }
   .connect-wallet:hover{
     border: 2px solid blueviolet;
-    color: black;
     cursor: pointer;
     box-shadow: 0 0 15px #A02279;
   }
