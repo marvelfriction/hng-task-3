@@ -11,50 +11,105 @@
   height: 100vh;
   margin: auto;
   font-family: "Red Rose", sans-serif;
+  /* position: relative; */
 }
+
 /* HOME PAGE */
 .main{
   width: 100%;
 }
-
-/* NAVBAR */
-.navbar{
-  height: 48px;
-  width: 100%;
-  margin: 30px;
+.section-1{
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  cursor: pointer;
+  margin-top: 160px;
+  margin-bottom: 100px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
-.metabnb-logo{
-  max-width: 230px;
-  max-height: 36px;
+.image-group-1{
+  width: 476px;
+  height: 100%;
+  padding-left: 60px;
 }
-.nav-links{
-  list-style: none;
-  display: inline-flex;
-  margin-right: 50px;
+/* .section-1-content{
+  width: 640px;
+} */
+.section-1 h2{
+  font-size: 56px;
+  line-height: 78px;
 }
-.nav-links a{
-  text-decoration: none;
-  color: black;
+.section-1 p{
+  font-size: 24px;
+  line-height: 35px;
+  font-weight: 400;
+  margin-top: 1.6rem;
 }
-.nav-links a:hover{
+.section-1 span{
   color: #A02279;
 }
-button.connect-wallet{
-  width: 170px;
-  height: 100%;
-  border-radius: 8px;
-  color: white;
-  border: 1px solid #A02279;
-  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+.search-container{
+  display: flex;
+  height: 54px;
+  margin-top: 3rem;
 }
-.connect-wallet:hover{
+.search-location{
+  width: 390px;
+  height: 100%;
+  border: 1px solid grey;
+  font-size: 20px;
+  border-radius: 8px 0 0 8px;
+}
+.search-location:hover{
   border: 2px solid blueviolet;
   color: black;
   cursor: pointer;
-  box-shadow: 0 0 15px #A02279;
+  box-shadow: 0 0 15px #A02279; 
+}
+/* .search-location::placeholder{
+ dhdg
+} */
+.search-btn{
+  width: 200px;
+  height: 100%;
+  border: 1px solid #A02279;
+  font-size: 20px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+  color: white;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+}
+.search-btn:hover{
+  border: 2px solid blueviolet;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 0 15px #A02279; 
 }
 
+.official-logos{
+  display: flex;
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  justify-content: space-evenly;
+}
+.mbtoken-logo, .metamask-logo, .opensea-logo{
+  width: 222px;
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+/* MOBILE SCREEN SIZES */
+@media screen and (max-width:1024px) {
+  .image-group-1{
+    width: 376px;
+    height: 360px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  
+}
+
+@media screen and (max-width:480px) {
+  
+}

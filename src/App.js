@@ -13,7 +13,6 @@ function App() {
       <Home />
       
       <PlaceToStay />
-      hiaiofn;fwemf;lwel;f
     </div>
   );
 }

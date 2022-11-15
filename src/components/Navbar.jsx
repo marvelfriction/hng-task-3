@@ -1,7 +1,6 @@
 import React from 'react'
+import './Navbar.css'
 import metabnbLogo from '../assets/metabnb-logo.png'
-import metamaskLogo from '../assets/metamask-logo.png'
-import openseaLogo from '../assets/opensea-logo.png'
 
 const Navbar = () => {
 

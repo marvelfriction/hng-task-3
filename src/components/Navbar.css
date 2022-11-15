@@ -1,0 +1,67 @@
+
+*,::after,::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar{
+    height: 108px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    /* position: fixed;
+    top: 0px; */
+    box-shadow: 0 0 15px grey;
+  }
+  .metabnb-logo{
+    max-width: 230px;
+    max-height: 36px;
+  }
+  .nav-links{
+    list-style: none;
+    display: inline-flex;
+    margin-right: 50px;
+    font-size: 20px;
+  }
+  .nav-links a{
+    text-decoration: none;
+    color: black;
+  }
+  .nav-links a:hover{
+    color: #A02279;
+  }
+  button.connect-wallet{
+    width: 170px;
+    height: 40%;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid #A02279;
+    background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  }
+  .connect-wallet:hover{
+    border: 2px solid blueviolet;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0 0 15px #A02279;
+  }
+
+
+
+
+  /* MOBILE SCREEN SIZES */
+@media screen and (max-width:768px) {
+
+}
+  
+  @media screen and (max-width:768px) {
+    
+  }
+  
+  @media screen and (max-width:480px) {
+    
+  }
