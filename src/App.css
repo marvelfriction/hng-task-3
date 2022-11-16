@@ -11,7 +11,7 @@
   height: 100vh;
   margin: auto;
   font-family: "Red Rose", sans-serif;
-  /* position: relative; */
+  position: relative;
 }
 
 /* HOME PAGE */
@@ -218,6 +218,17 @@ button.learn-more{
 .setting-icon{
   width: 24px;
   height: 24px;
+}
+
+/* MODAL BOX STYLE */
+.modalBackground{
+  position: absolute;
+  top: 170px;
+}
+
+.walletconnect-modal-icon, .metamask-modal-icon{
+  width: 100px;
+  height: 30px;
 }
 
 
