@@ -23,7 +23,6 @@ const Modal = ({closeModal}) => {
                     <IoIosArrowForward />
                 </div>
             </div>
-            ModalModal
         </div>
     )
 }

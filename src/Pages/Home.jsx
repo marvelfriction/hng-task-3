@@ -19,8 +19,8 @@ const Home = () => {
                      in the metaverse, get a chance to turn your imagination 
                      to reality at your comfort zone</p>
                      <div className="search-container">
-                        <input type="text" className="search-location" />
-                        <button className="search-btn" placeholder="search for location">Search</button>
+                        <input type="text" className="search-location" placeholder="search for location" />
+                        <button className="search-btn">Search</button>
                      </div>
                 </div>
                 <img src={imageGroupTop} alt="" className="image-group-1" />
