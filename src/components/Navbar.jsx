@@ -1,5 +1,6 @@
 import React from 'react'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
 import metabnbLogo from '../assets/metabnb-logo.png'
 
 const Navbar = () => {
@@ -8,10 +9,10 @@ const Navbar = () => {
         <div className="navbar">
             <img src={metabnbLogo} alt="" className="metabnb-logo" />
             <ul className="links-container ">
-                <li className="nav-links"><a href="#">Home</a></li>
-                <li className="nav-links"><a href="#">Place to stay</a></li>
-                <li className="nav-links"><a href="#">NFTs</a></li>
-                <li className="nav-links"><a href="#">Community</a></li>
+                <li className="nav-links"><Link to="/">Home</Link></li>
+                <li className="nav-links"><Link to="/placetostay">Place to stay</Link></li>
+                <li className="nav-links"><Link to="#">NFTs</Link></li>
+                <li className="nav-links"><Link to="#">Community</Link></li>
             </ul>
             <button className="connect-wallet">
                 Connect wallet 
