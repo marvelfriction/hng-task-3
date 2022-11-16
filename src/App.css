@@ -182,6 +182,19 @@ button.learn-more{
   cursor: pointer;
 }
 
+/* PLACE-TO-STAY PAGE */
+.place-to-stay{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.location-btn{
+  width: 161px;
+  height: 48px;
+  background: white;
+  border: 1px solid  #F5F5F5;
+  border-radius: 9px;
+}
+
 
 
 /* STYLE FOR SCREEN SIZES */

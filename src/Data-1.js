@@ -8,7 +8,7 @@ import image11 from "./assets/image-11.png"
 import image12 from "./assets/image-12.png"
 import starRating from './assets/star-rating.svg'
 
-const HomeData = [
+const data1 = [
     {
         id: 1,
         image: image5,
@@ -83,4 +83,4 @@ const HomeData = [
     },
 ]
 
-export default HomeData;
+export default data1;

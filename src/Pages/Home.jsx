@@ -8,7 +8,7 @@ import imageGroupTop from '../assets/image-group-top.png'
 import imageGroupBottom from '../assets/image-group-2.png'
 
 const Home = () => {
-    const [cards, setCards] = useState(data);
+    const [cards] = useState(data);
 
     return (
         <div className='main'>
@@ -23,7 +23,7 @@ const Home = () => {
                         <button className="search-btn" placeholder="search for location">Search</button>
                      </div>
                 </div>
-                <img src={imageGroupTop} alt="image-group-1" className="image-group-1" />
+                <img src={imageGroupTop} alt="" className="image-group-1" />
             </section>
             <div className="official-logos">
                 <img src={mbtokenLogo} alt="mbtoken-logo" className="mbtoken-logo" />
@@ -49,7 +49,7 @@ const Home = () => {
                         access to loads of our exclusive services.</p>
                     <button className="learn-more">Learn more</button>
                 </div>
-                <img src={imageGroupBottom} alt="image-group-2" className="image-group-2" />
+                <img src={imageGroupBottom} alt="" className="image-group-2" />
             </section>
         </div>
     )
