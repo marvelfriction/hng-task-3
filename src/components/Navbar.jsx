@@ -23,7 +23,7 @@ const Navbar = () => {
                 }}>
                 Connect wallet
             </button>
-            {openModal && <Modal setOpenModal={setOpenModal} />}
+            {openModal && <Modal closeModal={setOpenModal} />}
         </div>
     )
 }
