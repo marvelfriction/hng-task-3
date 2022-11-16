@@ -20,6 +20,7 @@
 }
 .section-1{
   display: flex;
+  margin: auto;
   margin-top: 160px;
   margin-bottom: 100px;
   padding-left: 30px;
@@ -57,6 +58,7 @@
   border: 1px solid grey;
   font-size: 20px;
   border-radius: 8px 0 0 8px;
+  font-family: "Red Rose", sans-serif;
 }
 .search-location:hover{
   border: 2px solid blueviolet;
@@ -68,13 +70,14 @@
  dhdg
 } */
 .search-btn{
-  width: 200px;
+  width: 30%;
   height: 100%;
   border: 1px solid #A02279;
   font-size: 20px;
   border-radius: 0 8px 8px 0;
   cursor: pointer;
   color: white;
+  font-family: "Red Rose", sans-serif;
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
 }
 .search-btn:hover{
@@ -141,12 +144,12 @@
 }
 
 .section-3{
-  /* height: 770px; */
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5.5rem;
+  padding: 3.5rem;
+  margin: 0 auto;
 }
 .section-3-content{
   color: white;
@@ -164,34 +167,106 @@
   margin-bottom: 40px;
   max-width: 400px;
 }
-.image-group-2{
-  width: 704px;
+.section-3 .image-group-2{
+  width: 694px;
   height: 574px;
 }
 button.learn-more{
   border-radius: 12px;
   width: 156px;
   height: 48px;
+  font-size: 1rem;
   color: #A02279;
+  font-family: "Red Rose", sans-serif;
   border: 1px solid #A02279;
   cursor: pointer;
 }
 
 
 
-/* MOBILE SCREEN SIZES */
+/* STYLE FOR SCREEN SIZES */
 @media screen and (max-width:1024px) {
-  .image-group-1{
-    width: 376px;
-    height: 360px;
-    padding-left: 30px;
+  .section-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
   }
+  .image-group-1{
+    margin-top: 30px;
+  }
+  .search-btn{
+    width: 30%;
+  }
+  .mbtoken-logo, .metamask-logo, .opensea-logo{
+    width: 122px;
+    height: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .section-2 h2{
+    font-size: 40px;
+  }
+  .section-3 .image-group-2{
+    width: 424px;
+    height: 374px;
+  }
+
 }
 
 @media screen and (max-width:768px) {
-  
+  .section-1{margin-top: 60px;}
+  .search-container{
+    width: 100%;
+  }
+  .search-location{
+    width: 70%;
+  }
+  .section-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
 
 @media screen and (max-width:480px) {
-  
+  .section-1 h2{
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .section-1 p{
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .section-1 .image-group-1{
+    width: 300px;
+    padding-left: 20px;
+  }
+  .section-2 h2{
+    font-size: 30px;
+  }
+
+  .section-3-content{
+    line-height: 30px;
+  }
+  .section-3-content h3{
+    font-size: 38px;
+    margin-bottom: 20px;
+  }
+  .section-3 p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+  .section-3 .learn-more{
+    width: 106px;
+    height: 38px; 
+    font-size: 12px; 
+  }
+  .section-3 .image-group-2{
+    width: 324px;
+    height: 274px;
+  }
 }
