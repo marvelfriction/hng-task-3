@@ -11,7 +11,16 @@ const PlaceToStay = () => {
         <>
     <div className="place-to-stay">
         <div className="meta--nav">
-
+            <ul className="meta--links" >
+                <li> Restaurant</li>
+                <li> Cottage</li>
+                <li> Castle</li>
+                <li> fantast city</li>
+                <li> beach</li>
+                <li> Carbins</li>
+                <li> Off-grid</li>
+                <li> Farm</li>
+            </ul>
             <button className="location-btn">
                 Location
                 <img src={settingIcon} className="setting-icon" alt="setting-icon" />

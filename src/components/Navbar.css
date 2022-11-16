@@ -22,6 +22,9 @@
     max-width: 230px;
     max-height: 36px;
   }
+  .links-container{
+    margin-left: 30px;
+  }
   .nav-links{
     list-style: none;
     display: inline-flex;
@@ -48,19 +51,39 @@
     cursor: pointer;
     box-shadow: 0 0 15px #A02279;
   }
-
-
-
+ 
 
   /* MOBILE SCREEN SIZES */
-@media screen and (max-width:768px) {
-
-}
-  
-  @media screen and (max-width:768px) {
-    
+  @media screen and (max-width:650px) {
+    .metabnb-logo{
+      max-width: 190px;
+    }
+    .navbar{
+      height: 208px;
+    }
+    button.connect-wallet{
+      width: 170px;
+      height: 20%;
+    }
   }
-  
-  @media screen and (max-width:480px) {
-    
+
+  @media screen and (max-width:580px) {
+    .metabnb-logo{
+      max-width: 240px;
+    }
+    .navbar{
+      height: 208px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 15px;
+    }
+    .links-container{
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      flex-wrap: wrap; 
+    }
   }
