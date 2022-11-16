@@ -6,7 +6,6 @@ import metamaskLogo from '../assets/metamask-logo.png'
 import openseaLogo from '../assets/opensea-logo.png'
 import imageGroupTop from '../assets/image-group-top.png'
 import imageGroupBottom from '../assets/image-group-2.png'
-import Modal from  '../components/Modal'
 
 const Home = () => {
     const [cards] = useState(data);

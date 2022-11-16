@@ -225,7 +225,26 @@ button.learn-more{
   position: absolute;
   top: 170px;
 }
-
+.modalContainer{
+  width: 500px;
+  height: 300px;
+  border: 2px solid grey;
+  border-radius: 16px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+.modalContainer > hr{
+  width: 100%;
+}
+.modalHeader{
+  padding: 10px;
+  display: flex;
+}
+.metamask-connect-link, .wallet-connect-link{
+  width: 270px;
+  height: 70px;
+}
 .walletconnect-modal-icon, .metamask-modal-icon{
   width: 100px;
   height: 30px;
