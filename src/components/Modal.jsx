@@ -8,9 +8,9 @@ const Modal = ({closeModal}) => {
     return (
         <div className="modalBackground">
             <div className="modalContainer">
-                <div classname="modalHeader">
+                <div className="modalHeader">
                     <h2 className="header-text">Connect wallet</h2>
-                    <button onClick={() => closeModal(false)}> X </button>
+                    <button className="btn-close" onClick={() => closeModal(false)}> X </button>
                 </div>
                 <hr />
                 <p className="choose-wallet">Choose your preferred wallet.</p>

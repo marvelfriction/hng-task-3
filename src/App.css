@@ -238,16 +238,32 @@ button.learn-more{
   width: 100%;
 }
 .modalHeader{
-  padding: 10px;
+  padding: 10px  20px 10px 20px;
   display: flex;
+  justify-content: space-between;
+}
+.modalHeader > .btn-close{
+  background: none;
+  border: none;
+  font-size: 18px;
 }
 .metamask-connect-link, .wallet-connect-link{
-  width: 270px;
+  width: 90% auto;
   height: 70px;
+  border: 1px solid #CFD8DC;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
 }
 .walletconnect-modal-icon, .metamask-modal-icon{
-  width: 100px;
-  height: 30px;
+  width: 200px;
+  height: 40px;
+}
+.choose-wallet, .metamask-connect-link, .wallet-connect-link{
+  margin: 10px  20px 10px 20px;
+
 }
 
 
